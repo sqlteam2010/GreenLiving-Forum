@@ -1,19 +1,22 @@
+<html>
 <head>
+<link type="text/css" href="style.css" rel="stylesheet" />
 <title>Login</title>
 </head>
+<body> 
 <form method="post" action="login.php">
 
-<table width="200" border="3">
+<table width="300" height="200" border="3">
 
 <tr>
 <td colspan="2" align="center">
-Green Source
+<h1>GreenLiving</h1>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-Email <br/>
+Email or Screen Name <br/><br/>
 Password 
 </td>
 <td align="center">
@@ -26,7 +29,7 @@ if(isset($_REQUEST['returnfile'])){
 else{
 	echo "<input type='hidden' value='/admin/' name='returnfile' />";
 }
-?>
+?> 
 </td>
 </tr>
 
@@ -38,3 +41,6 @@ else{
 </tr>
 
 </table>
+</form>
+</body>
+</html>

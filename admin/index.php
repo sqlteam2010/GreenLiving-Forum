@@ -22,15 +22,20 @@ header("Location: deny.php"); ?>
 <tr>
 	<td>
 <?php 
-$_POST['include'] = 'true';
-include('viewTable.php'); ?>
+$include = 'true';
+if (isset($_REQUEST['include'])){
+include($_REQUEST['include']);
+}
+else{
+	include('viewtable.php');
+}
+ ?>
 	</td>
 </tr>
 <tr>
 <td></td><td>
 </td>
 </tr>
-<tr><td><p>&copy;2010 Taylor Jones</p></td></tr>
 </table>
 
 </body>
