@@ -1,0 +1,26 @@
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body{
+	text-align:center;
+	min-width:400px;
+	min-height:400px;
+}
+#login{
+	float:left;
+	height:50%;
+	margin-top:-150px;/* half vertical height*/
+	width:100%;
+}
+#float {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	overflow:auto;/* allow content to scroll inside element */
+	text-align:left;
+	clear:both;
+}
+h1 {margin:0;padding:0}
