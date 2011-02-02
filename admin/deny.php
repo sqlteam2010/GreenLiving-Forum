@@ -1,1 +1,0 @@
-Access is denied please <a href="loginform.php">login</a> as an administrator to access this page.
